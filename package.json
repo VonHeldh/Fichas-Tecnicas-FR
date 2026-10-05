@@ -1,0 +1,30 @@
+{
+  "name": "sistema-fichas-tecnicas",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Sistema corporativo e minimalista para criação e emissão de Fichas Técnicas em PDF de página única A4",
+  "author": "Daniel Von Heldh (https://github.com/VonHeldh)",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "jsbarcode": "^3.12.3",
+    "lucide-react": "^1.49.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
+    "vite": "^8.3.0"
+  }
+}
